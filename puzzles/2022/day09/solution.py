@@ -27,7 +27,7 @@ positions.add((0, 0))
 
 DEBUG = False
 
-with open('day09/input.txt') as f:
+with open('input.txt') as f:
     lines = f.read().splitlines()
     for i, line in enumerate(lines):
         dir, amt_str = line.split(' ')

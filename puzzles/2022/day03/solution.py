@@ -7,7 +7,7 @@ for i, letter in enumerate(string.ascii_lowercase):
 
 # part 1
 duplicates = []
-with open('day03/input.txt') as f:
+with open('input.txt') as f:
     for i, line in enumerate(f.read().splitlines()):
         compartment_size = len(line) // 2
         compartment1 = {x for x in line[:compartment_size]}
@@ -21,7 +21,7 @@ print('sum of duplicate type priorities: {}'.format(sum(duplicate_priorities)))
 
 # part 2
 badges = []
-with open('day03/input.txt') as f:
+with open('input.txt') as f:
     lines = f.read().splitlines()
     i = 0
     while i < len(lines):

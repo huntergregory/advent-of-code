@@ -38,7 +38,7 @@ def inc_cycle():
     cycle += 1
     print_grid()
 
-with open('day10/input.txt') as f:
+with open('input.txt') as f:
     for i, line in enumerate(f.read().splitlines()):
         splits = line.split(' ')
         add_val = 0

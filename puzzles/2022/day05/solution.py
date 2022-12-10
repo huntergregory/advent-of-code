@@ -1,7 +1,7 @@
 from collections import deque
 
 stacks = []
-with open('day05/input.txt') as f:
+with open('input.txt') as f:
     lines = f.read().splitlines()
     num_stacks = (len(lines[0])+1) // 4
     for _ in range(num_stacks):

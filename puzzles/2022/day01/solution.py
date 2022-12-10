@@ -1,7 +1,7 @@
 import numpy as np
 
 elves = []
-with open('day01/input.txt') as f:
+with open('input.txt') as f:
     elf = 0
     for i, line in enumerate(f.read().splitlines()):
         if line == '':

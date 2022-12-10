@@ -13,7 +13,7 @@ def overlaps(ab1, ab2):
 
 contain_count = 0
 overlap_count = 0
-with open('day04/input.txt') as f:
+with open('input.txt') as f:
     for i, line in enumerate(f.read().splitlines()):
         elves = line.split(",")
         e1 = [int(x) for x in elves[0].split("-")]

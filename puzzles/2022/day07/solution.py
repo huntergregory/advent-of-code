@@ -11,7 +11,7 @@ class Dir:
 
 root = Dir('/', None)
 head = root
-with open('day07/input.txt') as f:
+with open('input.txt') as f:
     lines = f.read().splitlines()
     i = 1
     while i < len(lines):

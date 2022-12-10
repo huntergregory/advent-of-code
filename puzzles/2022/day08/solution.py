@@ -1,6 +1,6 @@
 import numpy as np
 
-with open('day08/input.txt') as f:
+with open('input.txt') as f:
     lines = f.read().splitlines()
     grid = np.zeros((len(lines), len(lines[0])), dtype=int)
     for i, line in enumerate(lines):
