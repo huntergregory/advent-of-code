@@ -1,4 +1,4 @@
-Solutions for Advent of Code puzzles. Mainly in Python, some in GoLang.
+Solutions for [Advent of Code](https://adventofcode.com/) puzzles. Mainly in Python, some in GoLang.
 
 # 2022
 ## Puzzles
