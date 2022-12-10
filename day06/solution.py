@@ -1,10 +1,10 @@
-NUM_DISTINCT = 14
+# optimized approach (sliding window)
+# for a 2.7MB file, takes 0.05 seconds (takes ~1 to 5 seconds for approaches in suboptimal-solutions.py)
+MARKER_SIZE = 14
 
-with open('input.txt') as f:
+with open('input/input.txt') as f:
     line = f.read().splitlines()[0]
 
-# optimized approach (sliding window)
-# for a 2.7MB file, takes 0.05 seconds (takes ~1-5 seconds for approaches in suboptimal-solutions.py)
 i = 0
 marker_start = 0
 while i < len(line):
@@ -12,7 +12,7 @@ while i < len(line):
         if line[i] == line[j]:
             marker_start = j+1
             break
-    if i - marker_start + 1 == NUM_DISTINCT:
+    if i - marker_start + 1 == MARKER_SIZE:
         break
     i += 1
 

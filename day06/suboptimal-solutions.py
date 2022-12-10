@@ -1,19 +1,19 @@
 # for a 2.7MB file, this approach takes 5.2 seconds without the optimization
 # and 0.7 seconds with the optimization
-i = NUM_DISTINCT-1
+i = MARKER_SIZE-1
 while i < len(line):
     good = True
-    # ensure there are NUM_DISTINCT letters
+    # ensure there are MARKER_SIZE letters
     marker_pool = {line[i]}
-    for j in range(i-1, i-NUM_DISTINCT, -1):
+    for j in range(i-1, i-MARKER_SIZE, -1):
         if line[i] == line[j]:
             # optimize by jumping ahead if we find where there's duplication
-            i = j+NUM_DISTINCT
+            i = j+MARKER_SIZE
             good = False
             break
         marker_pool.add(line[j])
     if good:
-        if len(marker_pool) == NUM_DISTINCT: 
+        if len(marker_pool) == MARKER_SIZE: 
             break
         # there's a non-unique letter somewhere, but we're not sure where, so look at the next letter
         i += 1
@@ -32,6 +32,6 @@ while i < len(line):
     if not good:
         markers = new_markers
     markers.append(line[i])
-    if len(markers) == NUM_DISTINCT:
+    if len(markers) == MARKER_SIZE:
         break
     i += 1
