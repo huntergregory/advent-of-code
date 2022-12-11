@@ -12,9 +12,9 @@ Solutions for [Advent of Code](https://adventofcode.com/) puzzles. Mainly in Pyt
 - [Day 8](https://adventofcode.com/2022/day/8): Find the best location based on a forest's tree heights.
 - [Day 9](https://adventofcode.com/2022/day/9): Simulate rope movements.
 - [Day 10](https://adventofcode.com/2022/day/10): Model a simplistic CPU/GUI.
+- [Day 11](https://adventofcode.com/2022/day/11): Scripting language. Assembly line that loops on itself. Subtle trick for part 2.
 
 ## Future Releases
-- [Day 11](https://adventofcode.com/2022/day/11): 
 - [Day 12](https://adventofcode.com/2022/day/12): 
 - [Day 13](https://adventofcode.com/2022/day/13): 
 - [Day 14](https://adventofcode.com/2022/day/14): 
