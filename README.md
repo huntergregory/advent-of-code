@@ -13,12 +13,12 @@ Solutions for [Advent of Code](https://adventofcode.com/) puzzles. Mainly in Pyt
 - [Day 9](https://adventofcode.com/2022/day/9): Simulate rope movements.
 - [Day 10](https://adventofcode.com/2022/day/10): Model a simplistic CPU/GUI.
 - [Day 11](https://adventofcode.com/2022/day/11): Scripting language. Assembly line that loops on itself. Subtle trick for part 2.
+- [Day 12](https://adventofcode.com/2022/day/12): TODO
+- [Day 13](https://adventofcode.com/2022/day/13): TODO
+- [Day 14](https://adventofcode.com/2022/day/14): Simulate sand falling.
+- [Day 15](https://adventofcode.com/2022/day/15): Massive scale grid search.
 
 ## Future Releases
-- [Day 12](https://adventofcode.com/2022/day/12): 
-- [Day 13](https://adventofcode.com/2022/day/13): 
-- [Day 14](https://adventofcode.com/2022/day/14): 
-- [Day 15](https://adventofcode.com/2022/day/15): 
 - [Day 16](https://adventofcode.com/2022/day/16): 
 - [Day 17](https://adventofcode.com/2022/day/17): 
 - [Day 18](https://adventofcode.com/2022/day/18): 
