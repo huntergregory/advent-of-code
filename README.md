@@ -16,11 +16,11 @@ Solutions for [Advent of Code](https://adventofcode.com/) puzzles. Mainly in Pyt
 - [Day 12](https://adventofcode.com/2022/day/12): TODO
 - [Day 13](https://adventofcode.com/2022/day/13): TODO
 - [Day 14](https://adventofcode.com/2022/day/14): Simulate sand falling.
-- [Day 15](https://adventofcode.com/2022/day/15): Massive scale grid search.
+- [Day 15](https://adventofcode.com/2022/day/15): Large-scale grid search.
+- [Day 16](https://adventofcode.com/2022/day/16): Find the optimal set of actions on a graph (HUGE action space). TODO: part 2 in reasonable time.
+- [Day 17](https://adventofcode.com/2022/day/17): Tetris spinoff.
 
 ## Future Releases
-- [Day 16](https://adventofcode.com/2022/day/16): 
-- [Day 17](https://adventofcode.com/2022/day/17): 
 - [Day 18](https://adventofcode.com/2022/day/18): 
 - [Day 19](https://adventofcode.com/2022/day/19): 
 - [Day 20](https://adventofcode.com/2022/day/20): 
