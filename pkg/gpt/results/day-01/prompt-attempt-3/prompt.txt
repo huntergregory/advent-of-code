@@ -1,0 +1,35 @@
+Correct!
+
+Prompt after formatting:
+Please respond with a Python script to solve the problem below. Your response should only include a compilable Python script. In this script, include comments explaining your thought process. Consider the puzzle below, which has a character-sensitive input file (that is, spaces and new lines are important in the input).
+
+
+PUZZLE:
+One important consideration is food - in particular, the number of Calories each Elf is carrying (your puzzle input).
+
+The Elves take turns writing down the number of Calories contained by the various meals, snacks, rations, etc. that they've brought with them, one item per line. Each Elf separates their own inventory from the previous Elf's inventory (if any) by a blank line.
+
+For example, suppose the Elves finish writing their items' Calories and end up with the following list:
+BEGINNING OF INPUT FILE
+1000
+2000
+3000
+
+4000
+
+5000
+6000
+
+7000
+8000
+9000
+
+10000
+END OF INPUT FILE
+
+...
+
+Find the Elf carrying the most Calories. How many total Calories is that Elf carrying?
+
+
+SCRIPT (solving the PUZZLE based on an INPUT FILE):

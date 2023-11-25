@@ -1,0 +1,24 @@
+PROMPT:
+"""You are an expert at solving code puzzles. Please walk through how you would code a python script for the below puzzle:
+{puzzle}"""
+
+Puzzle formatting:
+"""...
+For example, suppose the Elves finish writing their items' Calories and end up with the following list:
+START OF LIST
+1000
+2000
+3000
+
+4000
+
+5000
+6000
+
+7000
+8000
+9000
+
+10000
+END OF LIST
+..."""
